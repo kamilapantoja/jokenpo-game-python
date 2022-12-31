@@ -41,7 +41,7 @@ app_1_pontos.place(x=70, y=15)
 
 #os dois pontos
 app_ = Label(frame_cima, text=":", height=1, anchor='center', font=('Ivy 40 bold'), bg=co1, fg=co0)
-app_.place(x=160, y=20)
+app_.place(x=170, y=20)
 
 #pontuacao do PC
 app_2_pontos = Label(frame_cima, text="0", height=1, anchor='center', font=('Ivy 40 bold'), bg=co1, fg=co0)
@@ -53,6 +53,8 @@ app_2.place(x=300, y=70)
 app_2_linha = Label(frame_cima, text="", height=10, anchor='center', font=('Ivy 15 bold'), bg=co0, fg=co0)
 app_2_linha.place(x=355, y=0)
 
+app_linha = Label(frame_cima, text="", width=255,anchor='center', font=('Ivy 1 bold'), bg=co0, fg=co0)
+app_linha.place(x=0, y=95)
 
 
 janela.mainloop()
